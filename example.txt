@@ -1,0 +1,4 @@
+echo Tekst %zmienna% -> Console.WriteLine("Tekst " + zmienna);
+del file.txt -> System.IO.File.Delete("file.txt");
+ren file.txt file.txt -> System.IO.File.Rename("file.txt", "file.txt");
+title Tytuł -> Console.Title = "Tytuł";
